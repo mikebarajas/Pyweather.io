@@ -1,1 +1,1 @@
-web: python ./PyWeather/app.py
+web: python ./PyWeather/app.py --host 0.0.0.0 --port ${PORT}
